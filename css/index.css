@@ -1,0 +1,233 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%
+}
+
+body{
+	/*background: #E9E9E9*/
+	background: #efefef; 
+	/*background: #a10400;*/
+	
+	/*overflow-x: hidden;*/
+    /*padding:0;*/
+    /*border: 0;*/
+    /*overflow:hidden;*/
+}
+
+
+
+/*-----------NAVIGATION----------*/
+nav ul{
+	background: #efefef;
+	/*font-size: 1.5em;*/
+	text-align: center;
+	margin: 0;
+	padding: 0.1em;
+	/*text-transform: uppercase;*/
+}
+
+nav li{
+	/*font-size: 1.5em;*/
+	display: inline-block;
+	padding: .2em;
+	margin: 0.2em 0.5em 0 1em;
+}
+
+nav li:first-child{
+	margin-left: 0;
+}
+
+nav a{
+	text-align: center;
+	color: #E74C3C;	/*color of the navigation tabs*/
+	font-weight: bold;
+	font-family: Arial, Helvetica;
+	font-size:1.6em;
+	display:inline-block;
+	text-decoration: none;
+}
+
+nav a:hover{
+	/*color: #5D6D7E;*/
+	color: #E74C3C;
+	text-decoration: underline;
+}
+
+
+/*Background color changes when we tab. Useful for people using screen readers */
+/*nav a:focus{*/
+	/*background: #b3b3b3;*/
+	/*color:#0076BA;*/
+	/*color: #FF0000;
+}
+*/
+/*nav a:active{
+	border:3px solid #0076BA;
+}
+*/
+
+
+
+header{
+	/*background: #F8C2C2;*/
+	/*margin: 0 1em;*/
+}
+
+h1{
+	/*background:#B3B3B3; /*grey*/
+	/*color: rgba(0,118,186,1); /* blue with opacity */
+	/*background-color: rgba(255,255,255,1);*/
+	/*color: #ffffff; /*white*/  
+	font-family: Helvetica;
+	/*color: #a1276a;*/
+	/*color: #a10400;*/
+	/*color: #3E86CA;*/
+	/*color: #004a84;*/
+	/*color: #E74C3C;*/
+	font-size: 2em;
+}
+
+h2{
+	font-family: Helvetica;
+	/*color: #0093FF;*/
+	/*color: #a1276a;*/
+	/*color: #a10400;*/
+	/*color: #E74C3C;*/
+	/*color: #3E86CA;*/
+	/*color: #FF7541;*/
+	/*color: #004a84;*/
+	font-size: 1.5em;
+	/*color: #CD5C5C;*/
+}
+
+h3{
+	font-family: Helvetica;
+	font-size: 1.3em;
+	margin: 0;
+}
+
+h4{
+	font-family: Helvetica;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+/*--------------Paragraph------------*/
+
+p{
+	font:1.15em Arial, Helvetica;
+	/*margin: 0;*/
+	/*font-family: Arial,"Time New Roman",serif;*/
+	/*line-height: 140%;*/
+	/*word-spacing: .025em;*/
+	line-height: 1.3em;
+}	
+
+section{
+	background: #ffffff;
+	float: left;
+	display: inline-block;
+	border-radius: 10px;
+	text-align: justify;
+	text-justify: inter-word;
+	width: 79%;
+	padding:0 1.5em;
+	margin:.2em 0em .5em 1em;
+}
+
+/*section{
+	margin: .2em 0 0 0;
+}*/
+
+.a1{
+	background: #fefefe;
+}
+
+
+aside{
+	position: top;
+	/*background: #F8C2C2;*/
+	/*background: #d1d1d1;*/
+	/*background: #ffffff;*/
+	float: right;
+	color: #000000;
+	width: 15%;
+	margin: 0 .1em 0 0;
+}
+
+aside a{
+	color: 000000;
+}
+
+/* . for class */
+/*.tutorials{
+	float:left;
+	width: 60%;
+
+}*/
+
+/*.collab{
+	float: right;
+	width: 30%;
+}
+*/
+
+
+#a3{
+	/*background: #eeeee3;*/
+	float: left;
+	display: inline-block;
+	width: 45%;
+}
+
+
+#a4{
+	/*background: #eeeee3;*/
+	float: right;
+	display: inline-block;
+	width: 45%;
+}
+
+#a5{
+	/*background: #eeeee3;*/
+	/*text-align: center;*/
+	float: left;
+	display: inline-block;
+	width: 45%;
+}
+
+/* # for ID */
+#photo{
+	/*background: #ffffff;*/
+	/*color: #f8371f;*/
+	border:0px solid;
+	border-color: #efefef;
+	border-radius: 10px;
+	display: inline-block;
+	/*box-shadow: 2px 2px 3px 1px grey;*/
+	/*box-shadow:5px 5px 5px 5px;*/
+	box-shadow: 2px 2px 10px 2px #efefef;
+	margin: 0 .7em 0 0;
+	/*padding: 0 .4em;*/
+	/*font:14px Menlo, Courier;*/
+}
+
+code{
+	/*background:#edfbcc;*/
+	background: #ffffff;
+	color: #f8371f;
+	border:1px solid;
+	border-color: #e1e4e5;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 0 .4em;
+	font:14px Menlo, Courier;
+}
+
+footer{
+	/*background: #ffffff;*/
+	text-align: center;
+	clear: both;
+}

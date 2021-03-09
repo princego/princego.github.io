@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/othertabs.css"> <!--Linking CSS file to this html file-->
+	<title>Linux</title> <!--Title on top of a tab-->
+</head>
+
+<body>
+
+	<!-- Navigation bar -->
+<nav>
+<ul>
+	<li> <a href="index.html"> Home</a> </li>
+	<!-- <li> <a href="tutorials.html"> Tutorials</a> </li> -->
+	<li> <a href=""> Linux </a> </li>
+	<li> <a href="vesta.html"> Vesta </a> </li>
+	<li> <a href="links.html"> Links </a> </li>
+	<li> <a href="publications.html"> Publications</a> </li>
+	<!-- <li> <a href="bio.html">Bio</a></li> -->
+</ul>		 
+</nav>
+
+
+<section>
+	<article class="art">
+ 		<h2>Remotely Accessing a Linux Machine via Secure Shell(SSH)</h2>
+  
+  		<h3>Linux and Mac Users</h3>
+		<p>Open your terminal and enter <code>ssh username@hostname</code> </p> 
+
+  		<h3>Windows Users</h3>
+		<p> Install <a href="https://mobaxterm.mobatek.net/download.html" target="blank">MobaXterm</a>
+		 or <a href="https://www.putty.org/" target="blank">Putty</a> softwares, and SSH to login
+		</p>
+	</article>
+
+
+
+<!-- --------------------- -->
+	<article class="art">
+
+ <h2>Working with Directories (Folders) and Files</h2>
+	<p>Once you login, you’ll be taken to your home directory (folder). Always press <b>Enter</b> key after entering a command. If the directory name is too long, you need not type in full directory name, instead type first few letters
+	then press <b>tab</b> key. Directory name will be auto filled.</p>
+
+<table>
+<tr>
+	<th>Decription</th>
+	<th>Command</th>
+</tr>
+
+<tr> <td>Create a new directory </td>
+ 	  <td><code>mkdir directoryname</code> Don't use space in between for long directories, use _ instead</td> </tr>
+
+<tr> <td>Create two directories </td>
+ 	  <td><code>mkdir directory1 directory2</code></td> </tr>
+
+<tr> <td>Go inside a directory</td>
+	 <td><code>cd directoryname</code></td> </tr>
+
+<tr> <td> List contents in the directory</td> 
+	 <td><code>ls</code></td>	</tr>
+
+<tr> <td>Switch to home directory from any directory</td>
+	 <td> <code>cd</code> or <code>cd ~/</code> </td> </tr>
+
+<tr> <td>Go back to previous directory</td>
+	 <td><code>cd ..</code>  </td> </tr>
+
+<tr> <td>Go back to two directories</td>
+	 <td><code>cd ../..</code>  </td> </tr>	 
+
+<tr> <td>Go to subdirectory</td>
+	 <td><code>cd directory/subdirectory/</code> </td>	</tr>
+
+<tr> <td>Rename a directory</td>
+	 <td><code>mv old_name new_name</code> </td>	</tr>
+
+<tr> <td>Delete a directory/folder </td>
+	 <td><code>rm -r directoryname</code> </td>	</tr>
+
+<tr> <td>Move directory to a new location</td>
+	 <td><code>mv directoryname path_to_new_location</code> </td> </tr>
+
+
+<tr> <td>Create a new file</td>
+	 <td><code>vi filename</code> </td>	</tr>
+
+<tr> <td>To start editing the new file or old file</td>
+	 <td><code>i</code> then you'll go to inert mode. i.e., you can start editing. </td>	</tr>
+
+<tr> <td>Write changes to the file</td>
+	 <td><code>:w</code> it is similar to ctrl+s in windows</td>	</tr>
+
+<tr> <td>To quit the file</td>
+	 <td><code>:q</code> </td>	</tr>
+
+<tr> <td>To write changes to the file and quit</td>
+	 <td><code>:wq</code> </td>	</tr>
+
+<tr> <td>Save file without making changes</td>
+	 <td><code>:q!</code> </td>	</tr>
+
+<tr> <td>Delete a file</td>
+	 <td><code>rm filename</code></td> </tr>
+
+<tr> <td>Go to the last line</td>
+	 <td><code>G</code> </td>	</tr>
+
+<tr> <td>Go to first line</td>
+	 <td><code>gg</code> </td>	</tr>
+
+<tr> <td>Jump to a line n, say line number 25</td>
+	 <td><code>25G</code> </td>	</tr>
+
+<tr> <td>Move one page forward</td>
+	 <td><code>ctrl+f</code> </td>	</tr>
+
+<tr> <td>Delete specific rows from a file, say 1 to 10 rows</td>
+	 <td><code>:1,10d</code> </td>	</tr>
+
+<tr> <td>Delete specific rows from a file, say 100 to end</td>
+	 <td><code>:100,$d</code> </td>	</tr>
+</table>
+	</article>
+
+
+
+
+	<article class="art">
+ <h2>awk</h2>
+
+ 		<table>
+			<tr>
+				<td>Print last row</td>
+				<td><code>awk 'END{print}' filename</code> </td>
+			</tr>
+
+			<tr>
+				<td>Print 5th column</td>
+				<td><code>awk '{print $5}' filename</code> </td>
+			</tr>
+		</table>
+	</article>
+
+
+<!-- --------------- -->
+
+	<article class="art">
+ 	<h2>Transfer folders/files</h2>
+  	<h3>Command line interface</h3>
+   <p>To know the path, type <code>pwd</code> in your terminal</p>
+   	<table>	
+		<tr>
+			<td>Copy files from local to remote computer</td>
+			<td><code>scp -r fullpath/ user@hostname:/fullpath/</code> </td>
+		</tr>
+
+		<tr>
+			<td>Copy files from remote to local computer</td>
+			<td><code>scp -r user@hostname:/fullpath/ /fullpath_in_local_computer</code> </td>
+		</tr> 
+	</table>
+
+
+  <h3>Graphical interface</h3>
+   <h4>Linux</h4>
+    <p>Go to <b>connect to server</b> and type <code>sftp://username@servername</code>. Now you can drag and drop the files. Alternatively, you can use <a href="https://filezilla-project.org" target="blank">Filezilla</a>.</p>
+		
+   <h4>Mac</h4>
+    <p>Use <b>Forklift</b> from App Store or use <a href="https://filezilla-project.org" target="blank">Filezilla</a>.</p>
+   
+   <h4>Windows</h4>
+    <p>Open <a href="https://mobaxterm.mobatek.net/download.html" target="blank">MobaXterm</a> software, go to Session, go to SFTP and login. Alternatively, you can use <a href="https://filezilla-project.org" target="blank">Filezilla</a>.</p>
+	</article>		
+
+		
+<!-- ----------------------- -->
+
+
+	<article class="art">
+ 	<h2>Bash script commands</h2>
+	<p> To make a code executable, <code>chmod +x filename</code>, then run this code using <code>./filename</code></p>
+	</article>	
+</section>	
+
+	</body>
+	</html>	
