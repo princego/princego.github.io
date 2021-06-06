@@ -23,7 +23,7 @@
 
 
 <!-- section -->
-<section>
+<section id="top">
 	<article id="a1">
 
 	<img src='pics/vesta/vesta_logo.png' alat='Simple cubic'  width='150' height='150' class='center'/>
@@ -31,51 +31,14 @@
 	<p> Visualization for Electronic and Structural Analysis (<b>VESTA</b>) is an open source software to generate crystal structures.You can download the software <a href="https://jp-minerals.org/vesta/en/download.html" target="_blank">here</a>.
 	</p>
 
-	<p>You can learn to create crystal structures of Simple cubic, Face centered cubic(FCC), FCC (111) surface here.</p>
-
-<img src='pics/vesta/VESTA_interface.png' alt="VESTA interface" width="100%" />
-
+	<p>You can learn to create crystal structures of Face centered cubic (FCC), FCC (111) surface here.</p>
 	
-	</article>
-
-<!-- Simple Cubic Po -->
-	<article>
-	<h2>Simple Cubic &#945;-Po</h2>
-	<p>Let’s construct a simple cubic unit cell with lattice parameters:<br>
-	<code> a=b=c=1.68 &#x212B;; &#945;=&#946;=&#947;=90&#176;</code> <br>
-	Atomic position:<br> <code> (0, 0, 0)</code> <br>
-	</p>
-
-	<p>
-	<b>STEP 1</b>: Go to <b>File</b> &#8594; <b>New Structure</b>. You should be able to see the below window. <br>
-	<img src='pics/vesta/simple_cubic_1.png' alat=''/> <br>
-	<b>STEP 2</b>: In <b>Phase</b> you can give your structure name. It is not mandatory.<br>
-	<b>STEP 3</b>: In <b>Unit cell</b>, enter the lattice parameters: <code> a=b=c=1.68 &#x212B;; &#945;=&#946;=&#947;=90&#176;</code> <br>
-	<img src='pics/vesta/simple_cubic_2.png' width="660" alat=''/>
-	<img src='pics/vesta/simple_cubic_3.png' width="660" alat=''/> <br>
-	<b>STEP 4</b>: In <b>Structure Parameters</b>, click on <b>New</b>, (x,y,z) = <code>(0,0,0)</code> will be selected by default
-	 and the co-ordinates of Simple Cubic is (0,0,0).
-	 So you don’t need to change anything. Now click on <b>Symbol</b>, select <code>Po</code>. 
-	 In <b>label</b>, you are free to input any text. I am entering Po.<br>
-	 <img src='pics/vesta/simple_cubic_4.png' width="660" alat=''/>
-	 <img src='pics/vesta/simple_cubic_5.png' width="660" alat=''/>
-	 <img src='pics/vesta/simple_cubic_6.png' width="660" alat=''/>
-	 <img src='pics/vesta/simple_cubic_7.png' width="660" alat=''/> <br>
-	 <b>STEP 5</b>: Saving the image. Go to File &#8594; Save as, select your destination folder. The image will be saved with .vesta extension.
-	  You would be able to open this file in VESTA again. <br>
-	  <img src='pics/vesta/simple_cubic_8.png' alat=''/> <br>
-
-	  <b>STEP 6</b>: Exporting the image. Go to File &#8594; Export Raster Image. You will see different file formats like .jpg, .png, etc. 
-	Export in the format you need. To export high resolution imgs, increase the scale to 2 or higher. <br>
-	<img src='pics/vesta/simple_cubic_9.png' alat=''/>  <br>
-	<img src='pics/vesta/simple_cubic.png' alat='Simple cubic' height='200' class='center'/>  <br>
-	</p>
 	</article>
 				
 <!-- FCC Al -->
 	<article>
-	<h2>Face Centered Cubic (FCC) - Aluminium</h2>
-	<p>Let’s construct a FCC Aluminium unit cell with lattice parameters:<br>
+	<h2>Face Centered Cubic (FCC) </h2>
+	<p>Let’s construct a FCC  unit cell with the following lattice parameters:
 	<code> a=b=c=4 &#x212B;; &#945;=&#946;=&#947;=90&#176;</code> <br>
 	Atomic positions:<br><code>(0, 0, 0)</code> <br>
 	<code>(0, 0.5, 0.5)</code> <br>
@@ -89,19 +52,18 @@
 	<b>STEP 2</b>:  In <b>Phase</b> you can give your structure name. It is not mandatory. <br>
 
 	<b>STEP 3</b>: In <b>Unit cell</b>, enter lattice parameters a=b=c=4 &#x212B;;  &#945;=&#946;=&#947;=90&#176;. <br>
+	<img src='pics/vesta/fcc_Al_0.png' alat=''/> <br>
 
-	<b>STEP 4</b>: In <b>Structure Parameters</b>, click on <b>New</b>, (x,y,z) = <code>(0,0,0)</code> will be selected by default 
-		Now click on Symbol, select <code>Al</code> from the periodic table
-			Again click on New, enter second atomic position <code>(0, 0.5, 0.5)</code>
-		Similarly enter third and fourth atomic positions <code>(0.5, 0, 0.5)</code> and <code>(0.5, 0.5, 0)</code> one after the other <br>
+	<b>STEP 4</b>: In <b>Structure Parameters</b>, click on <b>New</b>, (x,y,z) = <code>(0,0,0)</code> will be added by default. Now click on <b>Symbol</b>, select <code>Al</code> from the periodic table
+			Again click on <b>New</b>, enter second atomic position <code>(0, 0.5, 0.5)</code>.
+		Similarly enter third and fourth atomic positions <code>(0.5, 0, 0.5)</code> and <code>(0.5, 0.5, 0)</code> and click <b>Ok</b> <br>
 		<img src='pics/vesta/fcc_Al_1.png' alat=''/> <br> 
 
-	<b>STEP 5</b>: Save your file in .vesta format <br>
-	<b>STEP 6</b>: Export your image <br>
+	<b>STEP 5</b>: Save your file in .vesta format. You can also export in other formats like .vasp by going to <b>File</b> &#8594; <b>Export Data</b>.<br>
+	<b>STEP 6</b>: Export your image by going to <b>File</b> &#8594; <b>Export Raster Image</b> <br>
 	<img src='pics/vesta/fcc_Al_2.png' height="200" alat='FCC Al'/> <br> 
 	</p>
 	</article>
-
 
 <!-- FCC (111) surface -->
 	<article>
@@ -116,7 +78,10 @@
 	</article>
 
 </section>
-	
+
+	<p>
+      <a href="#top">Back to Top</a>
+    </p>	
 	
 	</body>
 	</html>	
