@@ -2,11 +2,11 @@ body{
 	margin: 3%;
 }
 
-h1, h2, h3, h4, ol, ul, table{
+h1, h2, h3, h4{
 	font-family: Arial;
 	font-size: 1.5;
 }
-
+ 
 p{
 	font-family: Arial;
 	font-size: 125%;
@@ -17,6 +17,9 @@ ol, ul, table{
 	font-size: 125%;
 }
 
+li b{
+	color: #343434;
+}
 
 code{
 	color: #f8371f;
@@ -68,7 +71,7 @@ code{
 
 .banner-image h1{	
 	font-family: Arial;
-	font-size: 150%;	
+	font-size: 160%;	
 	color: #FF5631;
 	text-align: center;
 }
@@ -78,4 +81,5 @@ code{
 
 .copyright {
 	text-align: center;
+	color: #7C7C7C;
 }
