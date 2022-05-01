@@ -1,0 +1,81 @@
+body{
+	margin: 3%;
+}
+
+h1, h2, h3, h4, ol, ul, table{
+	font-family: Arial;
+	font-size: 1.5;
+}
+
+p{
+	font-family: Arial;
+	font-size: 125%;
+}
+
+ol, ul, table{
+	font-family: Arial;
+	font-size: 125%;
+}
+
+
+code{
+	color: #f8371f;
+	display: inline-block;
+	padding: 0 .4em;
+	font-size: 1.5;
+	font-family: Menlo, Courier;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    /*background-color: #333;*/
+    overflow: hidden;
+    font-family: Arial;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 125%;
+  color: #7C7C7C ;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #FF5631;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #FF5631;
+  font-size: 175%;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+.banner-image img{
+	max-width: 100%;
+	height: auto;
+}
+
+.banner-image h1{	
+	font-family: Arial;
+	font-size: 150%;	
+	color: #FF5631;
+	text-align: center;
+}
+
+
+
+
+.copyright {
+	text-align: center;
+}
