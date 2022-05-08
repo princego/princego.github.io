@@ -4,17 +4,16 @@ body{
 
 h1, h2, h3, h4{
 	font-family: Arial;
-	font-size: 1.5;
 }
  
 p{
 	font-family: Arial;
-	font-size: 125%;
+	font-size: 110%;
 }
 
 ol, ul, table{
 	font-family: Arial;
-	font-size: 125%;
+	font-size: 110%;
 }
 
 li b{
@@ -25,7 +24,7 @@ code{
 	color: #f8371f;
 	display: inline-block;
 	padding: 0 .4em;
-	font-size: 1.5;
+	font-size: 1.25;
 	font-family: Menlo, Courier;
 }
 
@@ -80,6 +79,7 @@ code{
 
 
 .copyright {
+	font-size: 100%;
 	text-align: center;
 	color: #7C7C7C;
 }
