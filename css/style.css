@@ -16,11 +16,18 @@ ol, ul, table{
 	font-size: 110%;
 }
 
-ol img{
+/*ol img{
 	display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+*/
+ol img{
+	display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li b{
