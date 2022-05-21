@@ -16,6 +16,13 @@ ol, ul, table{
 	font-size: 110%;
 }
 
+ol img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 li b{
 	color: #343434;
 }
