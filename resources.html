@@ -239,6 +239,32 @@
 
 <hr>
 
+
+<article class="art">
+
+<h2>Sample submission script</h2>
+	<code>
+#!/bin/bash <br>
+#PBS -o out <br>
+## Merge output and error files <br>
+#PBS -j oe <br>
+#PBS -k eod <br>
+#PBS -l walltime=00:59:59 <br>
+## Select n nodes, each with n CPUs <br>
+#PBS -l select=1:ncpus=12 <br>
+tpdir=`echo $PBS_JOBID | cut -f 1 -d .` <br>
+tempdir=$HOME/scratch/job$tpdir <br>
+mkdir -p $tempdir <br>
+cd $tempdir <br>
+cp -R $PBS_O_WORKDIR/* . <br>
+mpirun -n 12 vasp_std > log <br>
+
+echo "`date '+%m/%d/%y %H:%M:%S' ` $PBS_O_WORKDIR" >> ~/joblog.txt <br>
+mv ../job$tpdir $PBS_O_WORKDIR/. <br>
+	</code>
+</article>
+ <hr>
+
 	<article class="art">
  	<h2>grep</h2>
 	<p> <b>grep</b> command helps us to print the line when it finds the character you have entered. The syntax is <code>grep character filename</code>. If you are looking for long words, which has space in between, use <code>" "</code> <br>
