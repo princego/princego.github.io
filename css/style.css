@@ -39,9 +39,21 @@ code{
 	display: inline-block;
 	padding: 0 .4em;
 	font-size: 1.25;
-	font-family: Menlo, Courier;
+	font-family: Courier, Menlo;
 }
 
+
+summary{
+	font-family: Arial;
+	font-size: 110%;
+	color: #f8371f;
+}
+
+
+my-element {
+    display: block;
+    /* more styles here */
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -88,8 +100,6 @@ code{
 	color: #FF5631;
 	text-align: center;
 }
-
-
 
 
 .copyright {
