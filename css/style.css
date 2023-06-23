@@ -23,13 +23,6 @@ ol, ul, table{
   width: 50%;
 }
 */
-ol img{
-	display: block;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 li b{
 	color: #343434;
 }
@@ -54,6 +47,66 @@ my-element {
     display: block;
     /* more styles here */
 }
+
+
+.div-publication{
+	display: flex;
+  width: 100%; /* Set full-width to expand the whole page */
+  /*border-style:solid;*/
+  /*border-width:1px;*/
+}
+
+.div-publication-left{
+	display: inline-block;
+	width: 70%;
+	float: left;
+	color: black;
+	/*background: whitesmoke;*/
+	padding: 0px;
+	/*border-radius: 4px;*/
+	/*margin-right: 20px;*/
+}
+
+.div-publication-right{
+	display: inline-block;
+	width: 30%;
+	float: right;
+	color: black;
+	/*background: floralwhite;*/
+	object-fit: cover;
+	/*padding: 2%;*/
+	/*margin-left: 0%;*/
+}
+
+.div-publication-right img{
+	/*display: block;*/
+  width: 70%;
+  object-fit: contain;
+  height: auto;
+}
+
+
+ol .div-publication .div-publication-left ul li{
+	font-size: 100%;
+}
+
+.div-publication-left li{   /* paper title */
+	font-size: 125%;
+}
+
+.ulno-space {
+  margin-top: 0;
+  padding-left: 1em;
+}
+
+
+
+
+
+
+
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -90,8 +143,11 @@ my-element {
 
 
 .banner-image img{
-	max-width: 100%;
+	display: block;
+	max-width: 80%;
 	height: auto;
+	margin-left: auto;
+  margin-right: auto;
 }
 
 .banner-image h1{	
