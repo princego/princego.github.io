@@ -190,6 +190,10 @@
 <tr> <td>Compress an individual file to .gz</td>
 	 <td><code>gzip filename </code> </td>	</tr>	
 
+	
+<tr> <td>Search and compress a specific filename to .gz</td>
+	 <td><code> find . -type f -name "FILENAME" -exec gzip -f {} \; </code> </td>	</tr>	
+	
 <tr> <td>unzip a .gz file</td>
 	 <td><code>gzip -d filename.gz </code> </td>	</tr>	
 
