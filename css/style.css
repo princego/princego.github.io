@@ -3,16 +3,16 @@ body{
 }
 
 h1, h2, h3, h4{
-	font-family: Arial;
+	font-family: Avenir, Arial;
 }
  
 p{
-	font-family: Arial;
+	font-family: Avenir, Arial;
 	font-size: 110%;
 }
 
 ol, ul, table{
-	font-family: Arial;
+	font-family: Avenir, Arial;
 	font-size: 110%;
 }
 
@@ -37,7 +37,7 @@ code{
 
 
 summary{
-	font-family: Arial;
+	font-family: Avenir, Arial;
 	font-size: 110%;
 	color: #f8371f;
 }
@@ -47,6 +47,49 @@ my-element {
     display: block;
     /* more styles here */
 }
+
+
+.div-home h1{	
+	font-family: Avenir, Arial;
+	font-size: 180%;	
+	color: #FF5631;
+	text-align: center;
+}
+
+
+.div-home{
+	display: flex;
+  width: 100%; /* Set full-width to expand the whole page */
+  /*border-style:solid;*/
+  /*border-width:1px;*/
+}
+
+.div-home-left{
+	display: inline-block;
+	width: 75%;
+	float: left;
+	color: black;
+	/*background: whitesmoke;*/
+	padding: 0px;
+	/*border-radius: 4px;*/
+	/*margin-right: 20px;*/
+}
+
+.div-home-right{
+	display: inline-block;
+	width: 25%;
+	float: right;
+	color: black;
+	/*background: floralwhite;*/
+	object-fit: cover;
+	/*padding: 2%;*/
+	/*margin-left: 5%;*/
+}
+
+.div-home-right img{
+border-radius: 10%;
+}
+
 
 
 .div-publication{
@@ -101,18 +144,11 @@ ol .div-publication .div-publication-left ul li{
 
 
 
-
-
-
-
-
-
-
 /* Add a black background color to the top navigation */
 .topnav {
     /*background-color: #333;*/
     overflow: hidden;
-    font-family: Arial;
+    font-family: Avenir, Arial;
 }
 
 /* Style the links inside the navigation bar */
@@ -151,12 +187,11 @@ ol .div-publication .div-publication-left ul li{
 }
 
 .banner-image h1{	
-	font-family: Arial;
+	font-family: Avenir, Arial;
 	font-size: 160%;	
 	color: #FF5631;
 	text-align: center;
 }
-
 
 .copyright {
 	font-size: 100%;
