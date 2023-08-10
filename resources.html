@@ -347,8 +347,27 @@ mv ../job$tpdir $PBS_O_WORKDIR/. <br>
 		<td><code>conda config --set auto_activate_base false</code> </td>
 	</table>
 </article>
+
+<hr>
 	
+<article class="art">
+<h2>MatLab</h2>
+	<table>
+	<tr>
+	<td>Exporting figure in tiff format with 600 dpi resolution</td>
+	<td><code>exportgraphics(gcf,'eigenval.tiff', 'Resolution', 600)</code> </td>
+		
+	<tr>
+	<td>Exporting figure as pdf</td>
+	<td><code>exportgraphics(gcf,'figure.pdf')</code> </td>
+		
+	<tr>
+		<td>Deletes every 25th row from a matrix</td>
+		<td><code>A(25:25:end,:) = []</code> </td>
 	
+	</table>
+</article>
+
 	
 <hr>
 	<article class="art">
