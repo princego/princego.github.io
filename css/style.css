@@ -3,16 +3,16 @@ body{
 }
 
 h1, h2, h3, h4{
-	font-family: Avenir, Arial;
+	font-family: Arial;
 }
  
 p{
-	font-family: Avenir, Arial;
+	font-family: Arial;
 	font-size: 110%;
 }
 
 ol, ul, table{
-	font-family: Avenir, Arial;
+	font-family: Arial;
 	font-size: 110%;
 }
 
@@ -37,7 +37,7 @@ code{
 
 
 summary{
-	font-family: Avenir, Arial;
+	font-family: Arial;
 	font-size: 110%;
 	color: #f8371f;
 }
@@ -50,7 +50,7 @@ my-element {
 
 
 .div-home h1{	
-	font-family: Avenir, Arial;
+	font-family: Arial;
 	font-size: 180%;	
 	color: #FF5631;
 	text-align: center;
@@ -148,7 +148,7 @@ ol .div-publication .div-publication-left ul li{
 .topnav {
     /*background-color: #333;*/
     overflow: hidden;
-    font-family: Avenir, Arial;
+    font-family: Arial;
 }
 
 /* Style the links inside the navigation bar */
@@ -187,7 +187,7 @@ ol .div-publication .div-publication-left ul li{
 }
 
 .banner-image h1{	
-	font-family: Avenir, Arial;
+	font-family: Arial;
 	font-size: 160%;	
 	color: #FF5631;
 	text-align: center;
