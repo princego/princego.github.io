@@ -17,6 +17,10 @@
   font-size: 125%;
 }
 
+.topnav li{
+  display: inline;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -26,7 +30,6 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
   background-color: #f8371f;
   color: white;
   font-size: 125%;
