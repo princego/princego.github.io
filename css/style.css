@@ -104,7 +104,7 @@ border-radius: 10%;
 
 .div-publication-left{
 	display: inline-block;
-	width: 70%;
+	width: 50%;
 	float: left;
 	color: black;
 	/*background: whitesmoke;*/
@@ -115,7 +115,7 @@ border-radius: 10%;
 
 .div-publication-right{
 	display: inline-block;
-	width: 30%;
+	width: 50%;
 	float: right;
 	color: black;
 	/*background: floralwhite;*/
@@ -126,7 +126,7 @@ border-radius: 10%;
 
 .div-publication-right img{
 	/*display: block;*/
-  width: 70%;
+  width: 95%;
   object-fit: contain;
   height: auto;
 }
@@ -145,6 +145,27 @@ ol .div-publication .div-publication-left ul li{
   padding-left: 1em;
 }
 
+.width50{
+    width: 45%;
+    height: auto;
+
+}
+
+.width50 img{
+    width: 45%;
+    height: auto;
+    padding-left: 1em;
+		margin-right: 40px;
+}
+
+
+p.ptextlarge {
+  font-size: 125%;
+}
+
+ol li.large {
+  font-size: 120%;
+}
 
 /*.banner-image img{
 	display: block;
