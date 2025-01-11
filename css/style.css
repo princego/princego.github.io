@@ -14,28 +14,21 @@ p{
 
 ol, ul, table{
 	font-family: Arial;
-	font-size: 110%;
+	font-size: 105%;
 }
 
-/*ol img{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-*/
 li b{
 	color: #343434;
 }
 
 code{
-	color: #f8371f;
+/*	color: #f8371f; */
+    color: #2F3C7E;
 	display: inline-block;
-	padding: 0 .4em;
-	font-size: 1.25;
+	padding: 0.1em;
+	font-size: 110%;
 	font-family: Courier, Menlo;
 }
-
 
 summary{
 	font-family: Arial;
@@ -43,12 +36,10 @@ summary{
 	color: #f8371f;
 }
 
-
 my-element {
     display: block;
     /* more styles here */
 }
-
 
 .div-home h1{	
 	font-family: Arial;
@@ -59,7 +50,6 @@ my-element {
 	color: #f8371f;
 	text-align: center;
 }
-
 
 .div-home{
 	display: flex;
@@ -93,7 +83,6 @@ my-element {
 .div-home-right img{
 border-radius: 10%;
 }
-
 
 .div-publication{
 	display: flex;
@@ -131,13 +120,16 @@ border-radius: 10%;
   height: auto;
 }
 
-
 ol .div-publication .div-publication-left ul li{
 	font-size: 100%;
 }
 
 .div-publication-left li{   /* paper title */
 	font-size: 125%;
+}
+
+.div abstract {
+    background: blue;
 }
 
 .ulno-space {
@@ -158,37 +150,19 @@ ol .div-publication .div-publication-left ul li{
 		margin-right: 40px;
 }
 
-
 p.ptextlarge {
   font-size: 125%;
 }
 
 ol li.large {
-  font-size: 120%;
+  font-size: 115%;
 }
-
-/*.banner-image img{
-	display: block;
-	max-width: 80%;
-	height: auto;
-	margin-left: auto;
-  margin-right: auto;
-}
-*/
-/*.banner-image h1{	
-	font-family: Arial;
-	font-size: 160%;	
-	color: #FF5631;
-	text-align: center;
-}*/
 
 .copyright {
 	font-size: 100%;
 	text-align: center;
 	color: #7C7C7C;
 }
-
-
 
 /*============= BEGIN OF SLIDESHOW ============*/
 * {box-sizing:border-box}
@@ -205,7 +179,6 @@ ol li.large {
   display: none;
   text-align: center;
 }
-
 
 /* Next & previous buttons */
 .prev, .next {
