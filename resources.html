@@ -232,12 +232,23 @@
 
 <tr> <td>print a sequence of 1 to 10 numbers</td>
 	 <td><code> seq 10 > sysNum </code> </td>	</tr>		
+
+<tr> <td>Delete rows if any of the columns contain a value of 3</td>
+	 <td><code> sed '/3/d' 1.txt > 2.txt </code> </td>	</tr>	
+
+<tr> <td>Delete rows if 4th column contains a value of 5</td>
+	 <td><code> awk '$4 !="5" ' 1.txt >2.txt </code> </td>	</tr>		
 	
 <tr> <td>Print only col2 and 3 from a csv file</td>
 	 <td><code> awk -F "," '{print $2","$3}' file.csv > file_new.csv </code> </td>	</tr>	
 	
 <tr> <td>Sum of column of numbers in a file </td>
 	<td><code> paste -sd+ int_freq | bc </code> </td>  </tr>	
+
+
+
+awk '$4 !="5" ' 1.txt
+
 	
 </table>
 	</article>
