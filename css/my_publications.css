@@ -1,0 +1,25 @@
+.publications p{
+	font-family: Arial;
+	font-size: 125%;
+	line-height: 1;
+	margin: 0% 3% 0% 3%;
+}
+
+.publications ol{
+	font-family: Arial;
+	font-size: 115%;
+	margin: 0% 3% 0% 3%;
+}
+
+.publications code{
+/*	color: #f8371f; */
+    color: #2F3C7E;
+	display: inline-block;
+	padding: 0.1em;
+	font-size: 110%;
+	font-family: Courier, Menlo;
+}
+
+.publications ol li.large {
+  font-size: 115%;
+}

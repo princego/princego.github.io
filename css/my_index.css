@@ -1,0 +1,28 @@
+.introduction p{
+	/*font-family: Arial;*/
+	font-size: 125%;
+	line-height: 1.25;
+	margin: 0% 3% 0% 3%;
+}
+
+.introduction ol li{
+	font-size: 125%;
+	line-height: 1.5;
+	margin: 0% 3% 0% 3%;
+}
+
+
+
+
+.introduction code{
+/*	color: #f8371f; */
+    color: #2F3C7E;
+	display: inline-block;
+	padding: 0.1em;
+	font-size: 110%;
+	font-family: Courier, Menlo;
+}
+
+.introduction ol li.large {
+  font-size: 115%;
+}
